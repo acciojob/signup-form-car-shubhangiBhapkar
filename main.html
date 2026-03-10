@@ -20,9 +20,10 @@
 		<input type="radio" required value="gender_m" name="gender">Male
 		<input type="radio" required value="gender_f" name="gender">Female
 		<br><br>
-		
-		<select required id="cars">
-			<option>--Please choose an option--</option>
+
+		<labe for="cars">Cars</labe>
+		<select required id="cars" >
+			<option value="" disabled selected>--Please choose an option--</option>
 			<option>Audi</option>
 			<option>BMW</option>
 			<option>Ferrari</option>
@@ -46,8 +47,7 @@
 		<label for="tos">I agree to the TOS</label>
 
 		<br><br>
-		<input type="submit" value="submit" >
-
+		<button type="submit">submit</button>
 
 		
 	</form>
